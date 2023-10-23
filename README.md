@@ -8,17 +8,25 @@ This GitHub repository hosts a comprehensive smart home mobile application built
 
 # Features
 
-<img src="assets/images/sign_in.png" alt="Smart Home App Screenshot"  height="900">
-User Authentication: The application supports user authentication through Google Sign-In, providing a secure and personalized experience for users.
+## User Authentication
 
-<img src="assets/images/home.png" alt="Smart Home App Screenshot"  height="900">
-Real-time Device Management: The heart of this project is the ESP32 controller, which connects to Firebase via Wi-Fi. Users can easily connect smart devices, such as smart lights, to the ESP32. The ESP32 controller continuously monitors the Firebase real-time database for changes, enabling instant updates and control of connected devices.
+<img src="assets/images/sign_in.png" alt="Smart Home App Screenshot"  height="800">
+The application supports user authentication through Google Sign-In, providing a secure and personalized experience for users.
 
-<img src="assets/images/electric_usage.png" alt="Smart Home App Screenshot"  height="900">
-Electric Usage Tracking: The application includes the ability to track the electric usage of connected devices. It records and displays energy consumption data, helping users make informed decisions to optimize energy efficiency in their smart homes.
+## Real-time Device Management
 
-<img src="assets/images/air_conditioner.png" alt="Smart Home App Screenshot"  height="900">
-Device Control: The mobile app enables users to control smart devices indirectly by altering values in the Firebase real-time database. This approach offers a seamless and intuitive way to interact with and manage connected devices within your smart home.
+<img src="assets/images/home.png" alt="Smart Home App Screenshot"  height="800">
+The heart of this project is the ESP32 controller, which connects to Firebase via Wi-Fi. Users can easily connect smart devices, such as smart lights, to the ESP32. The ESP32 controller continuously monitors the Firebase real-time database for changes, enabling instant updates and control of connected devices.
+
+## Electric Usage Tracking:
+
+<img src="assets/images/electric_usage.png" alt="Smart Home App Screenshot"  height="800">
+The application includes the ability to track the electric usage of connected devices. It records and displays energy consumption data, helping users make informed decisions to optimize energy efficiency in their smart homes.
+
+## Device Control
+
+<img src="assets/images/air_conditioner.png" alt="Smart Home App Screenshot"  height="800">
+The mobile app enables users to control smart devices indirectly by altering values in the Firebase real-time database. This approach offers a seamless and intuitive way to interact with and manage connected devices within your smart home.
 
 # Getting Started
 
