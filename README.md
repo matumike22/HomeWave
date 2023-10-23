@@ -44,4 +44,4 @@ Connect smart devices, such as smart lights, to the ESP32 controller.
 
 Build and run the Flutter app on your mobile device or emulator.
 
-Sign in with your Google account and start controlling and tracking the electric usage of your smart devices through the app.
+Sign in with your Google account and start controlling your smart devices through the app.
