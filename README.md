@@ -1,4 +1,4 @@
-# <img src="assets/homewave.png" alt="Smart Home App Screenshot"  height="60" width="60"> HomeWave
+# HomeWave
 
 A smart home mobile app.
 
