@@ -1,0 +1,89 @@
+name: smart_home
+description: A smart home mobile app.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.7
+  intl: ^0.18.1
+  fl_chart: ^0.64.0
+  firebase_core: ^2.17.0
+  firebase_database: ^10.2.7
+  flutter_glow: ^0.3.0
+  sleek_circular_slider: ^2.0.1
+  google_sign_in: ^6.1.5
+  firebase_auth: ^4.10.1
+  cached_network_image: ^3.3.0
+  flutter_native_splash: ^2.3.4
+  flutter_launcher_icons: '^0.13.1'
+  flutter_animate: ^4.2.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+
+flutter_native_splash:
+  color: '#242424'
+  color_dark: '#242424'
+  image: assets/homewave.png
+  android: true
+  ios: true
+  web: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: 'assets/homewave.jpg'
+  adaptive_icon_background: '#242424'
+  adaptive_icon_foreground: 'assets/homewave.jpg'
+  remove_alpha_ios: true
+  web:
+    generate: true
+    image_path: 'assets/homewave.jpg'
+    background_color: '#242424'
+    theme_color: '#242424'
