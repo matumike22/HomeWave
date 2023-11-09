@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:intl/intl.dart';
+import 'package:smart_home/widgets/Total_electric_usage.dart';
 
 import '../pages/electric_usage_page.dart';
 import '../utils/page_transition.dart';
@@ -45,13 +46,7 @@ class ElectricWidget extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    Text(
-                      '27',
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 42,
-                          fontWeight: FontWeight.bold),
-                    ),
+                    TotalEnergyUsage(),
                     Text(
                       ' kwh',
                       style:

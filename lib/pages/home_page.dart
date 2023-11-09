@@ -1,12 +1,13 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:smart_home/widgets/drawer.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 
 import '../utils/page_transition.dart';
+import '../widgets/TemperatureHumidity.dart';
 import '../widgets/add_devices_dialog.dart';
 import '../widgets/device.dart';
+import '../widgets/drawer.dart';
 import '../widgets/electric.dart';
 import '../widgets/responsive_widget.dart';
 import '../widgets/user_picture.dart';
@@ -72,6 +73,8 @@ class HomePage extends StatelessWidget {
                     ]),
               ),
               const SizedBox(height: 20),
+              const TemperatureHumidityWidget(),
+              const SizedBox(height: 20),
               const ElectricWidget()
                   .animate()
                   .slideX(duration: 300.ms, curve: Curves.easeInOut),
@@ -119,6 +122,8 @@ class HomePage extends StatelessWidget {
                       icon: 'assets/tv.svg',
                       text: 'Smart TV',
                       path: 'TV/digital',
+                      // ontap: () => Navigator.of(context).push(
+                      //     PageTransition().leftToRight(const SpeechDetector())),
                     ),
                     const DeviceWidget(
                       icon: 'assets/speaker.svg',
@@ -126,9 +131,9 @@ class HomePage extends StatelessWidget {
                       path: 'Speaker/digital',
                     ),
                     const DeviceWidget(
-                      icon: 'assets/bulb.svg',
+                      icon: 'assets/warm.svg',
                       text: 'Smart Light 2',
-                      path: 'LED/digital',
+                      path: 'LED2/digital',
                     ),
                   ]
                       .animate(interval: 100.ms)
